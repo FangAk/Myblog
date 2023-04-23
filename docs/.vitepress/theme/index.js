@@ -1,14 +1,17 @@
 /*
- * @Author: ‘Fzz’ 
+ * @Author: ‘Fzz’
  * @Date: 2023-04-21 15:26:19
- * @LastEditTime: 2023-04-21 15:56:45
- * @FilePath: \kitty-uidocs\docs\.vitepress\theme\index.js
+ * @LastEditTime: 2023-04-21 17:04:00
+ * @FilePath: \Myblog\docs\.vitepress\theme\index.js
  * @Description: Do not edit
  */
 // .vitepress/theme/index.js
 
 import DefaultTheme from "vitepress/theme";
 // import "element-plus/dist/index.css";
+// 主题样式
+// import "vitepress-theme-demoblock/dist/theme/styles/index.css";
+import "./styles/index.css";
 export default {
   ...DefaultTheme,
   enhanceApp: async ({ app, router, siteData, isServer }) => {

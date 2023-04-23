@@ -6,9 +6,12 @@
  * @Description: Do not edit
  */
 export default {
+  base: "/blog/", //配置默认启动页地址
   themeConfig: {
     siteTitle: "Akm",
     logo: "/logo.png",
+    smoothScroll: true,
+    head: [["link", { rel: "icon", href: "/favicon.ico" }]],
     nav: [
       { text: "指南", link: "/guild/installation" },
       { text: "组件", link: "/examples/button/" },
@@ -54,6 +57,29 @@ export default {
           ],
         },
       ],
+    }, // 右侧边栏标题
+    outline: "deep",
+    outlineTitle: "章节导航",
+
+    // 上下篇文本提示文字
+    docFooter: {
+      prev: "←上一篇",
+      next: "下一篇→",
+    },
+
+    // 上次更新时间提示文字
+    lastUpdatedText: "上次更新时间",
+
+    // 编辑链接
+    // editLink: {
+    //     text: '我的博客',
+    //     pattern: 'https://www.csdn.net/'
+    // },
+
+    // 页面底部
+    footer: {
+      message: "",
+      copyright: "Copyright © " + new Date().getFullYear() + " Akm",
     },
   },
 };

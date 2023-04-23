@@ -16,13 +16,13 @@ KittyUI 目前还在开发中
 # 选择一个你喜欢的包管理器
 
 # NPM
-$ npm install kitty-ui --save
+$ npm install  --save
 
 # Yarn
-$ yarn add kitty-ui
+$ yarn add 
 
 # pnpm
-$ pnpm install kitty-ui
+$ pnpm install 
 ```
 
 ## 浏览器直接引入
