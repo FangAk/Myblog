@@ -6,7 +6,7 @@
  * @Description: Do not edit
  */
 export default {
-  base: "/blog/", //配置默认启动页地址
+  // base: "/blog/", //配置默认启动页地址
   themeConfig: {
     siteTitle: "Akm",
     logo: "/logo.png",
@@ -53,6 +53,17 @@ export default {
             {
               text: "Icon图标",
               link: "/examples/Icon/",
+            },
+          ],
+        },
+      ],
+      "/examples/": [
+        {
+          text: "ChatgptAl",
+          items: [
+            {
+              text: "once",
+              link: "/examples/Test/",
             },
           ],
         },
